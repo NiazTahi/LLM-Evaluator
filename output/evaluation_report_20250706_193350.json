@@ -1,0 +1,263 @@
+{
+  "executive_summary": {
+    "total_samples_evaluated": 17,
+    "overall_mean_score": 0.46556622649059626,
+    "overall_min_score": 0.23714285714285713,
+    "overall_max_score": 0.5585714285714286,
+    "positive_samples_count": 14,
+    "negative_samples_count": 3,
+    "samples_above_threshold": 0,
+    "excellence_samples": 0
+  },
+  "dimension_performance": {
+    "conversation_fluency": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "samples_count": 17,
+      "scores_distribution": {
+        "excellent_0.8+": 0,
+        "good_0.6-0.79": 0,
+        "moderate_0.4-0.59": 0,
+        "poor_0.2-0.39": 0,
+        "very_poor_0.0-0.19": 17
+      }
+    },
+    "tool_calling_performance": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "samples_count": 17,
+      "scores_distribution": {
+        "excellent_0.8+": 0,
+        "good_0.6-0.79": 0,
+        "moderate_0.4-0.59": 0,
+        "poor_0.2-0.39": 0,
+        "very_poor_0.0-0.19": 17
+      }
+    },
+    "guardrails_compliance": {
+      "mean": 0.9294117647058824,
+      "min": 0.19999999999999996,
+      "max": 1.0,
+      "samples_count": 17,
+      "scores_distribution": {
+        "excellent_0.8+": 15,
+        "good_0.6-0.79": 1,
+        "moderate_0.4-0.59": 0,
+        "poor_0.2-0.39": 0,
+        "very_poor_0.0-0.19": 1
+      }
+    },
+    "edge_case_handling": {
+      "mean": 0.7352941176470589,
+      "min": 0.1,
+      "max": 1.0,
+      "samples_count": 17,
+      "scores_distribution": {
+        "excellent_0.8+": 12,
+        "good_0.6-0.79": 0,
+        "moderate_0.4-0.59": 0,
+        "poor_0.2-0.39": 0,
+        "very_poor_0.0-0.19": 5
+      }
+    },
+    "special_instruction_adherence": {
+      "mean": 0.8698039215686275,
+      "min": 0.5,
+      "max": 1.0,
+      "samples_count": 17,
+      "scores_distribution": {
+        "excellent_0.8+": 12,
+        "good_0.6-0.79": 1,
+        "moderate_0.4-0.59": 4,
+        "poor_0.2-0.39": 0,
+        "very_poor_0.0-0.19": 0
+      }
+    },
+    "language_proficiency": {
+      "mean": 0.0,
+      "min": 0.0,
+      "max": 0.0,
+      "samples_count": 17,
+      "scores_distribution": {
+        "excellent_0.8+": 0,
+        "good_0.6-0.79": 0,
+        "moderate_0.4-0.59": 0,
+        "poor_0.2-0.39": 0,
+        "very_poor_0.0-0.19": 17
+      }
+    },
+    "task_execution_accuracy": {
+      "mean": 0.724453781512605,
+      "min": 0.38,
+      "max": 0.9099999999999999,
+      "samples_count": 17,
+      "scores_distribution": {
+        "excellent_0.8+": 6,
+        "good_0.6-0.79": 8,
+        "moderate_0.4-0.59": 2,
+        "poor_0.2-0.39": 1,
+        "very_poor_0.0-0.19": 0
+      }
+    }
+  },
+  "sample_type_analysis": {
+    "positive_samples": {
+      "count": 14,
+      "mean_score": 0.5007385811467444,
+      "score_range": [
+        0.4014285714285714,
+        0.5585714285714286
+      ]
+    },
+    "negative_samples": {
+      "count": 3,
+      "mean_score": 0.30142857142857143,
+      "score_range": [
+        0.23714285714285713,
+        0.3871428571428571
+      ]
+    }
+  },
+  "top_performing_samples": [
+    {
+      "sample_id": "edge_001",
+      "overall_score": 0.5585714285714286,
+      "strongest_dimension": "guardrails_compliance",
+      "strongest_score": 1.0
+    },
+    {
+      "sample_id": "positive_004",
+      "overall_score": 0.5585714285714286,
+      "strongest_dimension": "guardrails_compliance",
+      "strongest_score": 1.0
+    },
+    {
+      "sample_id": "positive_001",
+      "overall_score": 0.5585714285714286,
+      "strongest_dimension": "guardrails_compliance",
+      "strongest_score": 1.0
+    },
+    {
+      "sample_id": "edge_003",
+      "overall_score": 0.5585714285714286,
+      "strongest_dimension": "guardrails_compliance",
+      "strongest_score": 1.0
+    },
+    {
+      "sample_id": "edge_002",
+      "overall_score": 0.5528571428571428,
+      "strongest_dimension": "guardrails_compliance",
+      "strongest_score": 1.0
+    }
+  ],
+  "bottom_performing_samples": [
+    {
+      "sample_id": "positive_005",
+      "overall_score": 0.4061224489795918,
+      "weakest_dimension": "conversation_fluency",
+      "weakest_score": 0.0
+    },
+    {
+      "sample_id": "edge_004",
+      "overall_score": 0.4014285714285714,
+      "weakest_dimension": "conversation_fluency",
+      "weakest_score": 0.0
+    },
+    {
+      "sample_id": "positive_002",
+      "overall_score": 0.3871428571428571,
+      "weakest_dimension": "conversation_fluency",
+      "weakest_score": 0.0
+    },
+    {
+      "sample_id": "negative_002",
+      "overall_score": 0.27999999999999997,
+      "weakest_dimension": "conversation_fluency",
+      "weakest_score": 0.0
+    },
+    {
+      "sample_id": "negative_006",
+      "overall_score": 0.23714285714285713,
+      "weakest_dimension": "conversation_fluency",
+      "weakest_score": 0.0
+    }
+  ],
+  "failure_analysis": {
+    "total_failures": 3,
+    "failure_rate": 17.647058823529413,
+    "dimension_failures": {
+      "conversation_fluency": {
+        "failure_count": 3,
+        "mean_score": 0.0,
+        "percentage_of_failures": 100.0
+      },
+      "tool_calling_performance": {
+        "failure_count": 3,
+        "mean_score": 0.0,
+        "percentage_of_failures": 100.0
+      },
+      "guardrails_compliance": {
+        "failure_count": 1,
+        "mean_score": 0.19999999999999996,
+        "percentage_of_failures": 33.33333333333333
+      },
+      "edge_case_handling": {
+        "failure_count": 3,
+        "mean_score": 0.10000000000000002,
+        "percentage_of_failures": 100.0
+      },
+      "language_proficiency": {
+        "failure_count": 3,
+        "mean_score": 0.0,
+        "percentage_of_failures": 100.0
+      }
+    },
+    "common_failure_reasons": {
+      "language_issues": 3,
+      "compliance_issues": 1
+    },
+    "most_problematic_dimension": "conversation_fluency"
+  },
+  "recommendations": [
+    "Improve conversation fluency: Mean score 0.00 is below threshold",
+    "Improve tool calling performance: Mean score 0.00 is below threshold",
+    "Improve language proficiency: Mean score 0.00 is below threshold",
+    "Focus on improving Bangla language proficiency and response quality",
+    "Strengthen guardrails and safety measures",
+    "Regularly update the evaluation dataset with new edge cases",
+    "Consider implementing adaptive scoring based on conversation context",
+    "Monitor performance trends over time",
+    "Validate framework effectiveness with human evaluators"
+  ],
+  "framework_effectiveness": {
+    "score_variance": 0.009404778638145938,
+    "distinguishability": 0.3214285714285715,
+    "dimension_correlations": {
+      "conversation_fluency_vs_tool_calling_performance": 0,
+      "conversation_fluency_vs_guardrails_compliance": 0,
+      "conversation_fluency_vs_edge_case_handling": 0,
+      "conversation_fluency_vs_special_instruction_adherence": 0,
+      "conversation_fluency_vs_language_proficiency": 0,
+      "conversation_fluency_vs_task_execution_accuracy": 0,
+      "tool_calling_performance_vs_guardrails_compliance": 0,
+      "tool_calling_performance_vs_edge_case_handling": 0,
+      "tool_calling_performance_vs_special_instruction_adherence": 0,
+      "tool_calling_performance_vs_language_proficiency": 0,
+      "tool_calling_performance_vs_task_execution_accuracy": 0,
+      "guardrails_compliance_vs_edge_case_handling": 0.5331139899831832,
+      "guardrails_compliance_vs_special_instruction_adherence": 0.060983491470243234,
+      "guardrails_compliance_vs_language_proficiency": 0,
+      "guardrails_compliance_vs_task_execution_accuracy": 0.28796784017761506,
+      "edge_case_handling_vs_special_instruction_adherence": -0.09471090412218304,
+      "edge_case_handling_vs_language_proficiency": 0,
+      "edge_case_handling_vs_task_execution_accuracy": 0.3620388366993165,
+      "special_instruction_adherence_vs_language_proficiency": 0,
+      "special_instruction_adherence_vs_task_execution_accuracy": 0.6170915790158276,
+      "language_proficiency_vs_task_execution_accuracy": 0
+    },
+    "framework_reliability": "moderate",
+    "evaluation_quality": "Framework may need calibration"
+  }
+}
