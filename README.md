@@ -270,3 +270,19 @@ class CustomEvaluator(BaseEvaluator):
             reasoning="Custom evaluation reasoning"
         )
 ```
+## Limitations and Future Work
+
+### Current Limitations
+
+1. **Grammar Analysis**: Basic grammar checking (could be enhanced with NLP libraries)
+2. **Cultural Nuances**: Limited cultural context understanding
+3. **Domain Specificity**: General framework (could be specialized for domains)
+4. **Real-time Evaluation**: Optimized for batch processing
+
+### Future Enhancements
+
+1. **Advanced NLP Integration**: Integration with Bangla NLP libraries
+2. **Machine Learning Components**: ML-based scoring for complex dimensions
+3. **Interactive Dashboard**: Web-based evaluation dashboard
+4. **API Integration**: RESTful API for remote evaluation
+5. **Multi-modal Support**: Support for voice and image inputs
